@@ -1,0 +1,24 @@
+data_emoji.csv - histogram of emojis in stock tweets
+data_emoji_count_unibi.csv - uni-gram, bi-gram of text plus exact data from data_emoji.csv
+data_emoji_pol1_unibi - jak powyzej ale emoji columns maja sume polarity1
+data_emoji_pol2_unibi - jak powyzej ale polarity2
+data_emoji_pol3_unibi - jak powyzej ale polarity3
+data_emoji_Polarity1.csv - data_emoji data ale z suma polarity1
+data_emoji_Polarity2.csv - data_emoji data ale z suma polarity2
+data_emoji_Polarity3.csv - data_emoji data ale z suma polarity3
+data_emoji_unibi.csv - text and emojis are considered as tokens and me have unigrams and bigrams based on that, USED IN THE FRST PAPER
+data_unibi.csv - tylko text i wyznaczone unibi, UZYTY W PAPIERZE
+
+no polarities in the first papres
+polarity1 - word embediengs, simple similarity method based on seed word
+polarity2 - word embeddings, more complex - propagation through the network
+polarity3 - plosone paper, counting positives and negatives, 
+
+
+wszystkie uzyte w pierwszym atykule teraz sa troche wieksze bo ader uwzglednil najswiezsze stocktweets
+
+W PIERWSZEJ ANALIZIE WYKORZYSTAC
+data_emoji_Polarity1.csv - data_emoji data ale z suma polarity1
+data_emoji_Polarity2.csv - data_emoji data ale z suma polarity2
+data_emoji_Polarity3.csv - data_emoji data ale z suma polarity3
+data_emoji.csv - histogram of emojis in stock tweets
